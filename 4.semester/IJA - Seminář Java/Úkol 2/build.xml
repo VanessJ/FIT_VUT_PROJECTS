@@ -1,0 +1,23 @@
+<project>
+
+    <target name="clean">
+        <delete dir="Java/build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/"/>
+        <javac srcdir="src" includeantruntime="false" destdir="build"/>
+
+        <mkdir dir="dest"/>
+        <jar destfile="dest/Warehouse.jar" basedir="build">
+            <manifest>
+                <attribute name="Main-Class" value="ija/ija2020/project/Main"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run">
+        <java jar="dest/Warehouse.jar" fork="true"/>
+    </target>
+
+</project>

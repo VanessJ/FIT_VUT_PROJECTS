@@ -1,0 +1,74 @@
+Termíny
+
+
+18.3. 2020 - Plán projektu
+
+19.3. 2020 - Inicializácia projektu
+
+27.3. 2020 - TDD testy
+
+29.3. 2020 - Matematické funkcie + základy makefile
+
+31.3. 2020 - Profiling - program na vıpoèet smerodajnej odchılky  
+
+07.4. 2020 - GUI 
+
+10.4. 2020 - Prepojenie s GUI + dokonèenie makefile
+
+15.4. 2020 - Inštalátor + testovanie inštalácie na vlastnıch PC
+
+18.4. 2020 - Dokumentácia
+
+19.4. 2020 - Uivatelská príruèka 
+
+20.4. 2020 - Readme + Hodnotenie
+
+
+Rozdelenie úloh
+
+	Bellayová Magdaléna   xbella01:  
+				- GUI kalkulaèka
+				- GUI nápoveda
+				- Inštalátor
+
+	Jóriová Vanessa	xjorio00:
+			- Matematické funkcie
+			- Profiling
+			- TDD testy
+
+	Mikeska Tomáš xmikes11:
+			- Makefile
+			- Inštalátor
+			- Mockup
+
+	Zimmermann Marián xzimme03:
+			- Matematické funkcie
+			- Profiling
+			- TDD testy 
+
+	všetci: 
+	     - Dokumentácia
+	     - Kontrola GUI
+	     - Code review
+	     - Plánovanie projektu, návrhy
+
+Komunikácia
+
+	Messenger:
+		Náš primárny komunikaènı kanál bude messenger, pretoe je pre nás napraktickejší na pouitie a kadı má cez neho prístup vïaka mobilnej aplikácií z akéhoko¾vek miesta
+
+	Discord:
+		Zaloili sme si discord server v prípade nefunkènosti messengeru.
+
+	Mobil:
+		V najkrajnešiom prípade, napríklad v prípade nemonosti prístupu k internetu sme si navzájom uloili telefónne èísla.
+
+	Trello: 
+		Trello budeme pouíva v spojení s plánovaním úloh a sledovaním dodrania deadlinov.
+
+
+Zvolenı systém pre správu verzí a hosting
+
+	Na správu verzí pouívame Git na Githube, prístup k repozitáru bol udelenı ivs kontrole pod¾a zadania link: https://github.com/tomasmikeska/IVS
+		
+

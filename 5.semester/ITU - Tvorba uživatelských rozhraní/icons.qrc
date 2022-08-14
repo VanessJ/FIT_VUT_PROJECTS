@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="prefix">
+    <file>icons/add.png</file>
+    <file>icons/albums.png</file>
+    <file>icons/alert.png</file>
+    <file>icons/alert-circle.png</file>
+    <file>icons/analytics.png</file>
+    <file>icons/apps.png</file>
+    <file>icons/bar-chart.png</file>
+    <file>icons/build.png</file>
+    <file>icons/calendar.png</file>
+    <file>icons/close.png</file>
+    <file>icons/construct.png</file>
+    <file>icons/contrast.png</file>
+    <file>icons/copy.png</file>
+    <file>icons/cube.png</file>
+    <file>icons/factory.png</file>
+    <file>icons/hammer.png</file>
+    <file>icons/hardware-chip.png</file>
+    <file>icons/information-circle.png</file>
+    <file>icons/menu.png</file>
+    <file>icons/pie-chart.png</file>
+    <file>icons/remove.png</file>
+    <file>icons/search.png</file>
+  </qresource>
+</RCC>

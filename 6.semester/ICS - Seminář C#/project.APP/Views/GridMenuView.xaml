@@ -1,0 +1,23 @@
+﻿<views:UserControlBase x:Class="project.APP.Views.GridMenu"
+                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                       xmlns:local="clr-namespace:project.APP.Views"
+                       xmlns:views="clr-namespace:project.APP.Views"
+                       mc:Ignorable="d" 
+                       d:DataContext="{d:DesignInstance viewModels:GridMenuViewModel, IsDesignTimeCreatable=False}"
+                       xmlns:viewModels="clr-namespace:project.APP.ViewModels"
+                       d:DesignHeight="450" d:DesignWidth="800">
+
+    <StackPanel Orientation="Vertical" Visibility="{Binding PageVisibility}" >
+        <Button x:Name="btnMenuMainPage"  Style="{StaticResource MenuButtonStyle}" Height="60" Content="Main Page" Command="{Binding MainPageSelectedCommand}"/>
+        <Button x:Name="btnMenuCreateNewRide" Style="{StaticResource MenuButtonStyle}"  Height="60" Content="Manage Rides" Command="{Binding CreateNewRideSelectedCommand}"/>
+        <Button x:Name="btnMenuLookForRide"  Style="{StaticResource MenuButtonStyle}" Height="60" Content="Look For Ride" Command="{Binding LookForRideCommand}"/>
+        <Button x:Name="btnMenuMyProfile" Style="{StaticResource MenuButtonStyle}" Height="60"  Content="Profile" Command="{Binding MyProfileSelectedCommand}"/>
+        <Button x:Name="btnMenuMyCar"  Style="{StaticResource MenuButtonStyle}" Height="60" Content="Cars"  Command="{Binding MyCarSelectedCommand}"/>
+        <Button x:Name="btnMenuLogOut" Style="{StaticResource MenuButtonStyle}" Height="60" Content="Log Out"  Command="{Binding LogoutCommand}"/>
+
+    </StackPanel>
+   
+</views:UserControlBase>

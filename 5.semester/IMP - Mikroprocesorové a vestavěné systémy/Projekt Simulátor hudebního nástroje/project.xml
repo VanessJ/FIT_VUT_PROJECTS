@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project outputprefix="simulacianastroja">
+
+    <!-- Project description -->
+    <name> Simulator hudobneho nastroja </name>
+    <author>Vanessa Joriova</author>
+    <authoremail>xjorio00@stud.fit.vutbr.cz</authoremail>
+    <revision>20211812</revision>
+    <description> Simulator hudobneho nastroja pomocou FitKit2</description>
+
+
+    <!-- MCU part -->
+    <mcu>
+        <include>mcu/libs/keyboard/package.xml</include>
+        <include>mcu/libs/lcd/package.xml</include>
+        <file>main.c</file>
+    </mcu>
+
+    <!-- FPGA part -->
+    <fpga>
+    <include>fpga/ctrls/keyboard/package.xml</include>
+    <include>fpga/ctrls/lcd/package.xml</include>
+    <file>top_level.vhd</file>
+    </fpga>
+
+</project>

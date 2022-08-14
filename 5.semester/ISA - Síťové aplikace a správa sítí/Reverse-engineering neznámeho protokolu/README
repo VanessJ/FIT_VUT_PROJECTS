@@ -1,0 +1,47 @@
+# Reverse engineering neznámeho protokolu
+# Autor: Vanessa Jóriová (xjorio00)
+# Dátum: 14.11. 2021
+
+# Popis
+    Zadaním projektu bolo analyzovať komunikáciu poskytnutého referenčného klienta a servera. 
+    Zachytená komunikácia sa nachádza v súbore isa.pcap. Pre túto komunikáciu bol následne 
+    vytvorený Wireshark dissector (isa.lua), ktorý zobrazí jej obsah v používateľsky prívetivejšej forme.
+    Na základe získaných informácií bola vytvorená kópia referenčného klienta, ktorá slúži ako
+    jeho plnohodnotná náhrada. 
+
+# Obmedzenia
+    Dissector priradený k portu 32323 (pri spustení serveru na inom porte sa dissector nad komunikáciou nezavolá).
+    Zriedkavé nesprávne zobrazenie informácií o pakete dissectorom pri rozdelení správ na viac paketov.
+
+# Dissector - spustenie
+    vložiť script do príslušnej zložky (Help -> About Wireshark -> Folders -> Personal/Global Lua Plugins)
+    Reštartovať Wireshark alebo ctrl + shift + l.
+    Dissector následne zobrazí informácie o protokole na porte 32323. 
+
+#Preklad klienta
+    $ make - preloženie projektu
+    $ make clean - zmazanie binárnych súborov
+
+#Spustenie klienta
+    client -h                               - vypíše nápovedu
+    client register username password       - registruje užívateľa "username" s heslom "password"
+    client send username greeting "Hello."  - pošle užívateľovi "username" správu s predmetom "greeting" a obsahom "Hello."
+
+#Zoznam súborov
+    README
+    manual.pdf
+    isa.lua
+    isa.pcap
+    arg_parser.cpp
+    arg_parser.hpp
+    client.cpp
+    client.hpp
+    main.cpp
+    request_parser.cpp
+    request_parser.hpp
+    response_parser.cpp
+    response_parser.hpp
+    
+
+
+

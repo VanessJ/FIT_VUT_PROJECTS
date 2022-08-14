@@ -1,0 +1,4 @@
+xbella01 70 (GUI, výpočetní funkce, help obrazovka)
+xjorio00 110 (matematická knihovna, pokročilé mat. funkce, profiling, instalátor, příručka)
+xmikes11 110 (makefile, mockup, GUI, refaktorování, vytvoření projektu, instalátor)
+xzimme03 110 (matematická knihovna, pokročilé mat. funkce, dokumentace)

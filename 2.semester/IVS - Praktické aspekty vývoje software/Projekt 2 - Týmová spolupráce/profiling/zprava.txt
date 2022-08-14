@@ -1,0 +1,8 @@
+#Vysledne zhodnotenie profilingu
+
+Za vyuzitia cProfile sme vypocet vyberovej smerodatnej odchylky vykonali pre 10, 100 a 1000 hodnot. 
+Vyuzite zakladne matematicke funkcie su ale vdaka svojej nenarocnosti takmer nemeratelne. Znacnu cast
+volanych funkcii tvoria systemove funkcie (pre konvertovanie inputu atd.), z nami implementovanych 
+funkcii sa najcastejsie vola funkcia add(), a to 2N krat a funkcia square(), N+1 krat. Ostatne nami 
+vytvorene funkcie sa volaju konstante. Z toho dovodu je preto najvyhodnejsie zamerat sa pri 
+optimalizacii prave na funkcie add() a square(), tie su vsak nenarocne a efektivne. 
